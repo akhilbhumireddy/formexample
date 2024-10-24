@@ -51,7 +51,7 @@ The goal of this assignment is to create a simple web page with a form that incl
 
 #### Must Have
 
-- Submit the project via a **GitHub repository** or share a **Codepen** link.
+- Submit the project via a **GitHub repository** [https://github.com/akhilbhumireddy/formexample.git]or share a **Codepen** link.
 - The repository should include:
   - `index.html`
   - `styles.css`
