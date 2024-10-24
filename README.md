@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Simple Web Form with Success Message
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+The goal of this assignment is to create a simple web page with a form that includes fields for name, email, and message. When the user submits the form, a success message should be displayed without refreshing the page. You may use JavaScript or a front-end framework to achieve this functionality.
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- **HTML**
+- **CSS**
+- **JavaScript** or **React** (optional but preferable)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Completion Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Functionality
 
-### `npm test`
+#### Must Have
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A web page with a form that includes:
+  - **Name** field
+  - **Email** field
+  - **Message** field
+  - **Submit** button
+- When the user submits the form, a **success message** should be displayed on the page **without refreshing** the page.
+- Use **JavaScript** to handle form submission and display the success message.
+- Form validation (basic, e.g., required fields) is required before submission.
 
-### `npm run build`
+#### Nice to Have
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Utilize a **front-end framework** like **React** for handling the form and validation.
+- Implement more sophisticated form validation (e.g., email format validation).
+- Add smooth **animations** or **transitions** to the form elements and the success message.
+- Include form reset functionality after displaying the success message.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Guidelines to Develop the Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Must Have
 
-### `npm run eject`
+- The page should be visually appealing and responsive.
+- Proper use of **HTML5 semantics** (e.g., form elements, labels).
+- Use **CSS** for styling the form, ensuring proper spacing and alignment.
+- Ensure **cross-browser compatibility**.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Nice to Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Add responsiveness using **CSS media queries** to make the form look good on mobile and tablet devices.
+- Use **CSS Flexbox** or **Grid** for layout.
+- Include comments in your **JavaScript** or **React** code to explain key sections.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Submission Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Must Have
 
-## Learn More
+- Submit the project via a **GitHub repository** or share a **Codepen** link.
+- The repository should include:
+  - `index.html`
+  - `styles.css`
+  - `script.js` or `App.js` (for React)
+  - **Optional**: Add screenshots of the final web page in the repository.
+- Ensure the repository has a descriptive **README.md** file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Nice to Have
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Deploy the web page using platforms like **GitHub Pages**, **Netlify**, or **Vercel**, and include the live link in the submission.
+- Add a **demo video** or **GIF** showing the form submission process and the success message.
 
-### Code Splitting
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Design Files
 
-### Analyzing the Bundle Size
+- No design files provided. You are free to use your creativity to style the form.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### APIs
 
-### Making a Progressive Web App
+- No external APIs required for this assignment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Third-party Packages
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- If using **React**, include the following in your `package.json`:
+  - `react`
+  - `react-dom`
+  - Optionally, any other **React** packages you find useful for handling forms and validation.
+- **Optional**: Use any **CSS framework** like **Bootstrap** or **Tailwind CSS** to style the form.
